@@ -30,6 +30,8 @@ Partial Class frmMain
         Me.cmdCopy = New System.Windows.Forms.Button()
         Me.pgr01 = New System.Windows.Forms.ProgressBar()
         Me.cmdExit = New System.Windows.Forms.Button()
+        Me.txtFilter = New System.Windows.Forms.TextBox()
+        Me.lblFilter = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'cmdFrom
@@ -70,7 +72,7 @@ Partial Class frmMain
         '
         'cmdCopy
         '
-        Me.cmdCopy.Location = New System.Drawing.Point(285, 219)
+        Me.cmdCopy.Location = New System.Drawing.Point(285, 299)
         Me.cmdCopy.Name = "cmdCopy"
         Me.cmdCopy.Size = New System.Drawing.Size(355, 69)
         Me.cmdCopy.TabIndex = 4
@@ -81,7 +83,7 @@ Partial Class frmMain
         '
         Me.pgr01.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.pgr01.Location = New System.Drawing.Point(22, 319)
+        Me.pgr01.Location = New System.Drawing.Point(22, 399)
         Me.pgr01.Name = "pgr01"
         Me.pgr01.Size = New System.Drawing.Size(1869, 69)
         Me.pgr01.TabIndex = 5
@@ -89,18 +91,38 @@ Partial Class frmMain
         'cmdExit
         '
         Me.cmdExit.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.cmdExit.Location = New System.Drawing.Point(1666, 219)
+        Me.cmdExit.Location = New System.Drawing.Point(1666, 299)
         Me.cmdExit.Name = "cmdExit"
         Me.cmdExit.Size = New System.Drawing.Size(225, 69)
         Me.cmdExit.TabIndex = 6
         Me.cmdExit.Text = "Exit"
         Me.cmdExit.UseVisualStyleBackColor = True
         '
+        'txtFilter
+        '
+        Me.txtFilter.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txtFilter.Location = New System.Drawing.Point(285, 216)
+        Me.txtFilter.Name = "txtFilter"
+        Me.txtFilter.Size = New System.Drawing.Size(1606, 55)
+        Me.txtFilter.TabIndex = 7
+        '
+        'lblFilter
+        '
+        Me.lblFilter.AutoSize = True
+        Me.lblFilter.Location = New System.Drawing.Point(85, 219)
+        Me.lblFilter.Name = "lblFilter"
+        Me.lblFilter.Size = New System.Drawing.Size(100, 48)
+        Me.lblFilter.TabIndex = 8
+        Me.lblFilter.Text = "Filter"
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(20.0!, 48.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1938, 914)
+        Me.Controls.Add(Me.lblFilter)
+        Me.Controls.Add(Me.txtFilter)
         Me.Controls.Add(Me.cmdExit)
         Me.Controls.Add(Me.pgr01)
         Me.Controls.Add(Me.cmdCopy)
@@ -123,4 +145,6 @@ Partial Class frmMain
     Friend WithEvents cmdCopy As Button
     Friend WithEvents pgr01 As ProgressBar
     Friend WithEvents cmdExit As Button
+    Friend WithEvents txtFilter As TextBox
+    Friend WithEvents lblFilter As Label
 End Class
