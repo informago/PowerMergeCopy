@@ -37,103 +37,63 @@ Partial Class frmMain
         '
         'cmdFrom
         '
-        Me.cmdFrom.Location = New System.Drawing.Point(22, 24)
+        resources.ApplyResources(Me.cmdFrom, "cmdFrom")
         Me.cmdFrom.Name = "cmdFrom"
-        Me.cmdFrom.Size = New System.Drawing.Size(225, 69)
-        Me.cmdFrom.TabIndex = 0
-        Me.cmdFrom.Text = "From"
         Me.cmdFrom.UseVisualStyleBackColor = True
         '
         'cmdTo
         '
-        Me.cmdTo.Location = New System.Drawing.Point(22, 117)
+        resources.ApplyResources(Me.cmdTo, "cmdTo")
         Me.cmdTo.Name = "cmdTo"
-        Me.cmdTo.Size = New System.Drawing.Size(225, 69)
-        Me.cmdTo.TabIndex = 1
-        Me.cmdTo.Text = "To"
         Me.cmdTo.UseVisualStyleBackColor = True
         '
         'txtFrom
         '
-        Me.txtFrom.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtFrom.Location = New System.Drawing.Point(285, 31)
+        resources.ApplyResources(Me.txtFrom, "txtFrom")
         Me.txtFrom.Name = "txtFrom"
-        Me.txtFrom.Size = New System.Drawing.Size(1606, 55)
-        Me.txtFrom.TabIndex = 2
         '
         'txtTo
         '
-        Me.txtTo.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtTo.Location = New System.Drawing.Point(285, 124)
+        resources.ApplyResources(Me.txtTo, "txtTo")
         Me.txtTo.Name = "txtTo"
-        Me.txtTo.Size = New System.Drawing.Size(1606, 55)
-        Me.txtTo.TabIndex = 3
         '
         'cmdCopy
         '
-        Me.cmdCopy.Location = New System.Drawing.Point(285, 299)
+        resources.ApplyResources(Me.cmdCopy, "cmdCopy")
         Me.cmdCopy.Name = "cmdCopy"
-        Me.cmdCopy.Size = New System.Drawing.Size(355, 69)
-        Me.cmdCopy.TabIndex = 4
-        Me.cmdCopy.Text = "Copy"
         Me.cmdCopy.UseVisualStyleBackColor = True
         '
         'pgr01
         '
-        Me.pgr01.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.pgr01.Location = New System.Drawing.Point(22, 399)
+        resources.ApplyResources(Me.pgr01, "pgr01")
         Me.pgr01.Name = "pgr01"
-        Me.pgr01.Size = New System.Drawing.Size(1869, 69)
-        Me.pgr01.TabIndex = 5
         '
         'cmdExit
         '
-        Me.cmdExit.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.cmdExit.Location = New System.Drawing.Point(1666, 299)
+        resources.ApplyResources(Me.cmdExit, "cmdExit")
         Me.cmdExit.Name = "cmdExit"
-        Me.cmdExit.Size = New System.Drawing.Size(225, 69)
-        Me.cmdExit.TabIndex = 6
-        Me.cmdExit.Text = "Exit"
         Me.cmdExit.UseVisualStyleBackColor = True
         '
         'txtFilter
         '
-        Me.txtFilter.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtFilter.Location = New System.Drawing.Point(285, 216)
+        resources.ApplyResources(Me.txtFilter, "txtFilter")
         Me.txtFilter.Name = "txtFilter"
-        Me.txtFilter.Size = New System.Drawing.Size(1606, 55)
-        Me.txtFilter.TabIndex = 7
         '
         'lblFilter
         '
-        Me.lblFilter.AutoSize = True
-        Me.lblFilter.Location = New System.Drawing.Point(85, 219)
+        resources.ApplyResources(Me.lblFilter, "lblFilter")
         Me.lblFilter.Name = "lblFilter"
-        Me.lblFilter.Size = New System.Drawing.Size(100, 48)
-        Me.lblFilter.TabIndex = 8
-        Me.lblFilter.Text = "Filter"
         '
         'lstFiles
         '
-        Me.lstFiles.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        resources.ApplyResources(Me.lstFiles, "lstFiles")
         Me.lstFiles.FormattingEnabled = True
-        Me.lstFiles.ItemHeight = 48
-        Me.lstFiles.Location = New System.Drawing.Point(22, 501)
         Me.lstFiles.Name = "lstFiles"
-        Me.lstFiles.Size = New System.Drawing.Size(1886, 388)
-        Me.lstFiles.TabIndex = 9
         '
         'frmMain
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(20.0!, 48.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1938, 914)
         Me.Controls.Add(Me.lstFiles)
         Me.Controls.Add(Me.lblFilter)
         Me.Controls.Add(Me.txtFilter)
@@ -144,9 +104,7 @@ Partial Class frmMain
         Me.Controls.Add(Me.txtFrom)
         Me.Controls.Add(Me.cmdTo)
         Me.Controls.Add(Me.cmdFrom)
-        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmMain"
-        Me.Text = "PowerMergeCopy"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
