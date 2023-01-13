@@ -32,6 +32,7 @@ Partial Class frmMain
         Me.cmdExit = New System.Windows.Forms.Button()
         Me.txtFilter = New System.Windows.Forms.TextBox()
         Me.lblFilter = New System.Windows.Forms.Label()
+        Me.lstFiles = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
         'cmdFrom
@@ -116,11 +117,24 @@ Partial Class frmMain
         Me.lblFilter.TabIndex = 8
         Me.lblFilter.Text = "Filter"
         '
+        'lstFiles
+        '
+        Me.lstFiles.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lstFiles.FormattingEnabled = True
+        Me.lstFiles.ItemHeight = 48
+        Me.lstFiles.Location = New System.Drawing.Point(22, 501)
+        Me.lstFiles.Name = "lstFiles"
+        Me.lstFiles.Size = New System.Drawing.Size(1886, 388)
+        Me.lstFiles.TabIndex = 9
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(20.0!, 48.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1938, 914)
+        Me.Controls.Add(Me.lstFiles)
         Me.Controls.Add(Me.lblFilter)
         Me.Controls.Add(Me.txtFilter)
         Me.Controls.Add(Me.cmdExit)
@@ -147,4 +161,5 @@ Partial Class frmMain
     Friend WithEvents cmdExit As Button
     Friend WithEvents txtFilter As TextBox
     Friend WithEvents lblFilter As Label
+    Friend WithEvents lstFiles As ListBox
 End Class

@@ -1,4 +1,6 @@
 ﻿Imports System.ComponentModel
+Imports System.IO
+Imports Microsoft.VisualBasic.FileIO
 
 Public Class frmMain
 
@@ -34,6 +36,7 @@ Public Class frmMain
     Private Sub frmMain_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
         My.Computer.Registry.CurrentUser.SetValue("From", txtFrom.Text)
         My.Computer.Registry.CurrentUser.SetValue("To", txtTo.Text)
+        My.Computer.Registry.CurrentUser.SetValue("Filter", txtFilter.Text)
     End Sub
 
 #End Region
@@ -41,7 +44,46 @@ Public Class frmMain
 #Region "Action!"
 
     Private Sub CopyItens(DirFrom As String, DirTo As String, Filter As String)
+        Dim vSep As Integer = 0
+        Dim vFileName As String = String.Empty
+        Dim vFileDest As String = String.Empty
+        Dim vEx As String = String.Empty
+        Dim vFiles() As String = Directory.GetFiles(DirFrom, Filter, IO.SearchOption.AllDirectories)
+        Dim vCheck() As String = Directory.GetFiles(DirTo, Filter, IO.SearchOption.TopDirectoryOnly)
+        Dim vProg As Integer = 0
 
+        lstFiles.DataSource = vFiles
+        pgr01.Maximum = vFiles.Length
+
+        If vFiles.Length = 0 Then
+            vEx += "There is no files no process." + ControlChars.NewLine
+        End If
+
+        If Directory.Exists(DirTo) = False Then
+            vEx += "The destination foldes does not exist." + ControlChars.NewLine
+        End If
+
+        If vEx > "" Then
+            MessageBox.Show(vEx, "PowerMergeCopy", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+            Exit Sub
+        End If
+
+        For Each vSource As String In vFiles
+            vSep = vSource.LastIndexOf("\")
+            vFileName = vSource.Substring(vSep)
+            vFileDest = DirTo + vFileName
+            If vCheck.Contains(vFileDest) = False Then
+                File.Copy(vSource, vFileDest)
+            End If
+
+            lstFiles.SelectedIndex = vProg
+            pgr01.Value = vProg
+            vProg += 1
+            Me.Refresh()
+        Next
+
+        pgr01.Value = pgr01.Maximum
+        MessageBox.Show("Cópia concluída", "PowerMergeCopy", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 
 #End Region
