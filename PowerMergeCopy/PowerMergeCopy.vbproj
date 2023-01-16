@@ -9,6 +9,18 @@
     <Authors>informago</Authors>
     <Description>Copy files that match name criteria from all subdirectories to a specific one.</Description>
     <ApplicationIcon>8666682_external_link_icon.ico</ApplicationIcon>
+    <Title>PowerMergeCopy</Title>
+    <PackageIcon>8666682_external_link_icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/informago/PowerMergeCopy</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
@@ -30,6 +42,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="8666682_external_link_icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Update="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

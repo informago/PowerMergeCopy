@@ -19,6 +19,19 @@ Public Class frmMain
         txtFrom.Text = fOpen.SelectedPath
     End Sub
 
+    Private Sub txtFrom_LostFocus(sender As Object, e As EventArgs) Handles txtFrom.LostFocus
+        RefreshListFiles()
+    End Sub
+
+    Private Sub txtFilter_TextChanged(sender As Object, e As EventArgs) Handles txtFilter.TextChanged
+        RefreshListFiles()
+    End Sub
+
+    Private Sub RefreshListFiles()
+        Dim vFiles() As String = Directory.GetFiles(txtFrom.Text, txtFilter.Text, IO.SearchOption.AllDirectories)
+        lstFiles.DataSource = vFiles
+    End Sub
+
     Private Sub cmdTo_Click(sender As Object, e As EventArgs) Handles cmdTo.Click
         Dim fOpen As New Windows.Forms.FolderBrowserDialog
         fOpen.ShowDialog()
@@ -49,7 +62,7 @@ Public Class frmMain
         Dim vFileDest As String = String.Empty
         Dim vEx As String = String.Empty
         Dim vFiles() As String = Directory.GetFiles(DirFrom, Filter, IO.SearchOption.AllDirectories)
-        Dim vCheck() As String = Directory.GetFiles(DirTo, Filter, IO.SearchOption.TopDirectoryOnly)
+        Dim vCheck() As String = {}
         Dim vProg As Integer = 0
 
         lstFiles.DataSource = vFiles
@@ -67,6 +80,8 @@ Public Class frmMain
             MessageBox.Show(vEx, "PowerMergeCopy", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
             Exit Sub
         End If
+
+        vCheck = Directory.GetFiles(DirTo, Filter, IO.SearchOption.TopDirectoryOnly)
 
         For Each vSource As String In vFiles
             vSep = vSource.LastIndexOf("\")
