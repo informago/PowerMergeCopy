@@ -1,5 +1,6 @@
 ﻿Imports System.ComponentModel
 Imports System.IO
+Imports System.Runtime.CompilerServices
 Imports Microsoft.VisualBasic.FileIO
 
 Public Class frmMain
@@ -14,9 +15,10 @@ Public Class frmMain
     End Sub
 
     Private Sub cmdFrom_Click(sender As Object, e As EventArgs) Handles cmdFrom.Click
-        Dim fOpen As New Windows.Forms.FolderBrowserDialog
+        Dim fOpen As New System.Windows.Forms.FolderBrowserDialog
         fOpen.ShowDialog()
         txtFrom.Text = fOpen.SelectedPath
+        RefreshListFiles()
     End Sub
 
     Private Sub txtFrom_LostFocus(sender As Object, e As EventArgs) Handles txtFrom.LostFocus
@@ -28,12 +30,16 @@ Public Class frmMain
     End Sub
 
     Private Sub RefreshListFiles()
-        Dim vFiles() As String = Directory.GetFiles(txtFrom.Text, txtFilter.Text, IO.SearchOption.AllDirectories)
+        Dim vFiles() As String = {}
+        lstFiles.DataSource = Nothing
+        If Directory.Exists(txtFrom.Text) Then
+            vFiles = Directory.GetFiles(txtFrom.Text, txtFilter.Text, IO.SearchOption.AllDirectories)
+        End If
         lstFiles.DataSource = vFiles
     End Sub
 
     Private Sub cmdTo_Click(sender As Object, e As EventArgs) Handles cmdTo.Click
-        Dim fOpen As New Windows.Forms.FolderBrowserDialog
+        Dim fOpen As New System.Windows.Forms.FolderBrowserDialog
         fOpen.ShowDialog()
         txtTo.Text = fOpen.SelectedPath
     End Sub
@@ -62,7 +68,6 @@ Public Class frmMain
         Dim vFileDest As String = String.Empty
         Dim vEx As String = String.Empty
         Dim vFiles() As String = Directory.GetFiles(DirFrom, Filter, IO.SearchOption.AllDirectories)
-        Dim vCheck() As String = {}
         Dim vProg As Integer = 0
 
         lstFiles.DataSource = vFiles
@@ -81,13 +86,12 @@ Public Class frmMain
             Exit Sub
         End If
 
-        vCheck = Directory.GetFiles(DirTo, Filter, IO.SearchOption.TopDirectoryOnly)
 
         For Each vSource As String In vFiles
             vSep = vSource.LastIndexOf("\")
             vFileName = vSource.Substring(vSep)
             vFileDest = DirTo + vFileName
-            If vCheck.Contains(vFileDest) = False Then
+            If File.Exists(vFileDest) = False Then
                 File.Copy(vSource, vFileDest)
             End If
 

@@ -104,6 +104,10 @@
   <data name="cmdCopy.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 22</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdCopy.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
   <data name="pgr01.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 128</value>
   </data>
@@ -131,6 +135,9 @@
   <data name="txtFilter.Size" type="System.Drawing.Size, System.Drawing">
     <value>565, 23</value>
   </data>
+  <data name="txtFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
   <data name="lblFilter.Location" type="System.Drawing.Point, System.Drawing">
     <value>30, 68</value>
   </data>
@@ -140,7 +147,6 @@
   <data name="lblFilter.Size" type="System.Drawing.Size, System.Drawing">
     <value>33, 15</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lstFiles.ItemHeight" type="System.Int32, mscorlib">
     <value>15</value>
   </data>

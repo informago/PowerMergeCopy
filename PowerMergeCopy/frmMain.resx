@@ -57,167 +57,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="cmdTo.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;txtTo.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;pgr01.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="txtFrom.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;lstFiles.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;cmdExit.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="txtFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>285, 216</value>
-  </data>
-  <data name="txtFilter.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;cmdTo.Name" xml:space="preserve">
-    <value>cmdTo</value>
-  </data>
-  <data name="txtFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="cmdTo.Text" xml:space="preserve">
-    <value>To</value>
-  </data>
-  <data name="lblFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>85, 219</value>
-  </data>
-  <data name="txtFrom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1606, 55</value>
-  </data>
-  <data name="pgr01.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 399</value>
-  </data>
-  <data name="&gt;&gt;txtTo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cmdCopy.Text" xml:space="preserve">
-    <value>Copy</value>
-  </data>
-  <data name="&gt;&gt;txtTo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lstFiles.ItemHeight" type="System.Int32, mscorlib">
-    <value>48</value>
-  </data>
-  <data name="lblFilter.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;pgr01.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1938, 914</value>
-  </data>
-  <data name="lblFilter.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;cmdFrom.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lstFiles.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pgr01.Name" xml:space="preserve">
-    <value>pgr01</value>
-  </data>
-  <data name="&gt;&gt;txtFilter.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;cmdExit.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txtFrom.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
   <data name="&gt;&gt;cmdExit.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="txtFrom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>285, 31</value>
-  </data>
-  <data name="&gt;&gt;cmdCopy.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;lstFiles.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cmdExit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1666, 299</value>
-  </data>
-  <data name="txtFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1606, 55</value>
-  </data>
-  <data name="txtTo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1606, 55</value>
-  </data>
-  <data name="cmdTo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 69</value>
-  </data>
-  <data name="cmdCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>285, 299</value>
-  </data>
-  <data name="cmdFrom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 24</value>
-  </data>
-  <data name="&gt;&gt;lstFiles.Name" xml:space="preserve">
-    <value>lstFiles</value>
-  </data>
-  <data name="&gt;&gt;txtFrom.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pgr01.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtTo.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;lblFilter.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="lstFiles.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="txtTo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>285, 124</value>
-  </data>
-  <data name="cmdTo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 117</value>
-  </data>
-  <data name="&gt;&gt;lblFilter.Name" xml:space="preserve">
-    <value>lblFilter</value>
-  </data>
-  <data name="&gt;&gt;pgr01.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="cmdFrom.Text" xml:space="preserve">
-    <value>From</value>
-  </data>
-  <data name="&gt;&gt;cmdCopy.Name" xml:space="preserve">
-    <value>cmdCopy</value>
-  </data>
-  <data name="cmdExit.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="lblFilter.Text" xml:space="preserve">
-    <value>Filter</value>
-  </data>
-  <data name="&gt;&gt;txtFrom.Parent" xml:space="preserve">
+  <data name="&gt;&gt;pgr01.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="lstFiles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1886, 388</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pgr01.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1606, 55</value>
+  </data>
+  <data name="cmdFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 69</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -275,113 +139,249 @@
         jC8/7EnuAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="&gt;&gt;cmdTo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;txtFilter.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="cmdFrom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 69</value>
+  <data name="lblFilter.Text" xml:space="preserve">
+    <value>Filter</value>
   </data>
-  <data name="&gt;&gt;cmdCopy.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="lblFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 219</value>
   </data>
-  <data name="&gt;&gt;cmdFrom.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;txtFilter.Name" xml:space="preserve">
+    <value>txtFilter</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="txtFrom.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="cmdCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>355, 69</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>frmMain</value>
-  </data>
-  <data name="&gt;&gt;cmdTo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="pgr01.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;txtFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="txtTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 124</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>1, 1, 1, 1</value>
   </data>
-  <data name="cmdExit.Text" xml:space="preserve">
-    <value>Exit</value>
+  <data name="txtFrom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 31</value>
   </data>
-  <data name="pgr01.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1869, 69</value>
-  </data>
-  <data name="&gt;&gt;txtFrom.Name" xml:space="preserve">
-    <value>txtFrom</value>
-  </data>
-  <data name="&gt;&gt;cmdTo.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="cmdFrom.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;cmdExit.Name" xml:space="preserve">
-    <value>cmdExit</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>20, 48</value>
-  </data>
-  <data name="cmdCopy.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lblFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 48</value>
-  </data>
-  <data name="txtTo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;lblFilter.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;cmdCopy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lstFiles.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 501</value>
-  </data>
-  <data name="cmdExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 69</value>
+  <data name="cmdCopy.Text" xml:space="preserve">
+    <value>Copy</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>PowerMergeCopy</value>
   </data>
-  <data name="cmdExit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="&gt;&gt;lblFilter.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="txtTo.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="txtFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1606, 55</value>
   </data>
-  <data name="&gt;&gt;cmdFrom.Name" xml:space="preserve">
-    <value>cmdFrom</value>
+  <data name="lblFilter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;lblFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;cmdCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="txtFrom.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;txtTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cmdFrom.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="lstFiles.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="cmdTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 117</value>
+  </data>
+  <data name="cmdTo.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lstFiles.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="cmdCopy.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtFrom.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmdExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1666, 299</value>
+  </data>
+  <data name="&gt;&gt;txtFrom.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cmdExit.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pgr01.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1869, 69</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmMain</value>
+  </data>
+  <data name="&gt;&gt;pgr01.Name" xml:space="preserve">
+    <value>pgr01</value>
+  </data>
+  <data name="txtFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cmdFrom.Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="&gt;&gt;cmdTo.Name" xml:space="preserve">
+    <value>cmdTo</value>
+  </data>
+  <data name="&gt;&gt;cmdTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 48</value>
+  </data>
+  <data name="lstFiles.ItemHeight" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;lstFiles.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmdTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 69</value>
+  </data>
+  <data name="&gt;&gt;txtTo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtFrom.Name" xml:space="preserve">
+    <value>txtFrom</value>
+  </data>
+  <data name="&gt;&gt;cmdFrom.Name" xml:space="preserve">
+    <value>cmdFrom</value>
+  </data>
+  <data name="&gt;&gt;lstFiles.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmdCopy.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1938, 914</value>
+  </data>
+  <data name="&gt;&gt;cmdExit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdTo.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cmdCopy.Name" xml:space="preserve">
+    <value>cmdCopy</value>
   </data>
   <data name="&gt;&gt;txtTo.Name" xml:space="preserve">
     <value>txtTo</value>
   </data>
-  <data name="&gt;&gt;txtFilter.Name" xml:space="preserve">
-    <value>txtFilter</value>
+  <data name="&gt;&gt;txtFrom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdExit.Name" xml:space="preserve">
+    <value>cmdExit</value>
+  </data>
+  <data name="txtTo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmdExit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="pgr01.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 399</value>
+  </data>
+  <data name="cmdCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 299</value>
+  </data>
+  <data name="&gt;&gt;pgr01.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmdTo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pgr01.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtFilter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdFrom.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lstFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1886, 388</value>
+  </data>
+  <data name="&gt;&gt;cmdFrom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmdExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;cmdCopy.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtTo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lstFiles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmdExit.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cmdFrom.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 216</value>
+  </data>
+  <data name="&gt;&gt;cmdTo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmdFrom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 24</value>
+  </data>
+  <data name="cmdExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 69</value>
+  </data>
+  <data name="&gt;&gt;lstFiles.Name" xml:space="preserve">
+    <value>lstFiles</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>20, 48</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.Name" xml:space="preserve">
+    <value>lblFilter</value>
+  </data>
+  <data name="pgr01.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmdCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 69</value>
+  </data>
+  <data name="lstFiles.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txtTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1606, 55</value>
+  </data>
+  <data name="txtFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lstFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 501</value>
+  </data>
+  <data name="lblFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtFrom.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

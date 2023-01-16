@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Winforms", "Winforms", "{B3A6BDCF-B3E7-4A83-B7C9-2E360731014F}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PowerMergeCopy", "PowerMergeCopy\PowerMergeCopy.vbproj", "{88E080A5-2194-4C3E-A72A-8C0356C237FB}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "PowerMergeCopy", "PowerMergeCopy\PowerMergeCopy.vbproj", "{88E080A5-2194-4C3E-A72A-8C0356C237FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Install", "Install", "{84676DE6-7B7F-4FFF-B3BC-5EE7F6AA129C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
