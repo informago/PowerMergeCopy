@@ -67,9 +67,15 @@ Public Class frmMain
         Dim vFileName As String = String.Empty
         Dim vFileDest As String = String.Empty
         Dim vEx As String = String.Empty
-        Dim vFiles() As String = Directory.GetFiles(DirFrom, Filter, IO.SearchOption.AllDirectories)
+        Dim vFiles() As String = {}
         Dim vProg As Integer = 0
 
+        If Directory.Exists(DirFrom) = False Then
+            MessageBox.Show("Diretório inválido", "MergeCopy", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+            Exit Sub
+        End If
+
+        vFiles = Directory.GetFiles(DirFrom, Filter, IO.SearchOption.AllDirectories)
         lstFiles.DataSource = vFiles
         pgr01.Maximum = vFiles.Length
 
